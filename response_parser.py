@@ -4,8 +4,6 @@ from all_models import getAI
 
 def get_parsed_response(request):
 
-    print(request)
-
     # get llm response
     llm_response = getAI(request.model, request.api_key, request.prompt)
 
