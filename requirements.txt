@@ -1,0 +1,4 @@
+uvicorn
+fastapi
+Groq
+google-generativeai
